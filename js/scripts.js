@@ -19,5 +19,12 @@ var number2 = parseInt(prompt("Enter another number:"));
 var result = multy(number1, number2);
 alert(result);
 
+var degreesF = prompt("What is the temp in degrees F?");
+
+function tempConvert(degreesF) {
+  return alert("The temperature is " +(degreesF-32)*(5/9)) + "degrees Celsius.");
+}
+
+tempConvert(degreesF);
 
 
